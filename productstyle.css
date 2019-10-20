@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+header{
+    width: 88px;
+    margin-left: auto;
+    margin-right: 730px;
+}
+
+header img{
+    height:72px;
+    margin-top: 20px;
+    display: block;
+}
+main h1{
+    font-family: 'Righteous', cursive;
+}
+
+main h2{
+    font-family: 'Righteous', cursive;
+}
+
+.ps{
+    display: grid;
+    height: 350px;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    border-radius: 2%;
+    background-color: rgba(0,51,102,0.6);
+    font-family: 'Righteous', cursive;
+}
+
+.ps img{
+    width:200px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.ps img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.xbox{
+    display: grid;
+    height: 350px;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    background-color: rgba(0,51,102,0.6);
+    font-family: 'Righteous', cursive;
+}
+
+.xbox img{
+    width:200px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.xbox img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.switch{
+    display: grid;
+    height: 350px;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    background-color: rgba(0,51,102,0.6);
+    font-family: 'Righteous', cursive;
+}
+
+.switch img{
+    width:200px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.switch img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.wallet{
+    display: grid;
+    height: 350px;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    background-color: rgba(0,51,102,0.6);
+    font-family: 'Righteous', cursive;
+}
+
+.wallet img{
+    width:200px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.wallet img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.acce{
+    display: grid;
+    height: 350px;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    background-color: rgba(0,51,102,0.6);
+    font-family: 'Righteous', cursive;
+}
+
+.acce img{
+    width:200px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.acce img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: left;
+}
+
+body{
+    background-image:url("games/PSsym.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin: 0px;
+}
+
+footer{
+    display: grid;
+    height: 55px;
+    grid-template-columns:  50px 50px 20px 20px 50px 100px 1fr 100px 50px 20px 50px 20px 50px;
+    grid-template-rows: 1fr;
+    background-image: linear-gradient(to bottom, midnightblue, black, midnightblue);
+}
+
+.copyright{
+    grid-column: 7;
+    color: white;
+    align-self: center;
+    justify-self: center;
+}
+
+.insta{
+    grid-column: 9;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.insta:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.disc{
+    grid-column: 11;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.disc:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.twit{
+    grid-column: 13;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.twit:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.find{
+    grid-column: 8;
+    color: cyan;
+    align-self: center;
+    justify-self: center;
+
+}
+
+footer img{
+    height: 40px;
+}

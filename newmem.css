@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Long+Cang&display=swap');
+
+main{
+    display: grid;
+    height: 775px;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 50px 1fr 1fr;
+    background-image: url("header/bg1.jpg");
+}
+
+.welcomeb{
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 150px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'long cang' , cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.geekvana{
+    grid-column: 3;
+    grid-row: 2;
+    margin: auto;
+}
+.proceed{
+    grid-column: 3;
+    grid-row: 3;
+    margin:auto;
+}
+
+#home{
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+
+#home:hover {
+    background: #ddd;
+    color: black;
+}
+
+footer{
+    display: grid;
+    height: 55px;
+    grid-template-columns:  50px 50px 20px 20px 50px 100px 1fr 100px 50px 20px 50px 20px 50px;
+    grid-template-rows: 1fr;
+    background-image: linear-gradient(to bottom, midnightblue, black, midnightblue);
+}
+
+.copyright{
+    grid-column: 7;
+    color: white;
+    align-self: center;
+    justify-self: center;
+}
+
+.insta{
+    grid-column: 9;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.insta:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.disc{
+    grid-column: 11;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.disc:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.twit{
+    grid-column: 13;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.twit:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.find{
+    grid-column: 8;
+    color: white;
+    align-self: center;
+    justify-self: center;
+
+}
+
+footer img{
+    height: 40px;
+}
+
+

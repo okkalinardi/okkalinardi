@@ -1,0 +1,244 @@
+header{
+    display: grid;
+    height: 55px;
+    grid-template-columns: 75px 75px 50px 1fr 75px 75px 50px;
+    grid-template-rows: 1fr;
+    background-image: linear-gradient(to bottom, midnightblue, black, midnightblue);
+}
+
+.logo{
+    grid-column: 4 ;
+    align-self: center;
+    justify-self: center;
+}
+
+.user{
+    grid-column: 7;
+    align-self: center;
+    justify-self: center;
+}
+
+.products{
+    grid-column: 5;
+    align-self: center;
+    justify-self: center;
+}
+
+.products a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.about{
+    grid-column: 6;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.about a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.user img{
+    height: 40px;
+    opacity: 0.5;
+}
+.user img:hover{
+    opacity: 1;
+}
+
+
+
+.jumbotron{
+    display: grid;
+    grid-template-columns: 1424px;
+    grid-template-rows: 566.933px 199.067px 35px;
+    height: 592px;
+}
+
+
+.jumbotron video{
+    width: 100%;
+    min-width: 100%;
+    right: 0;
+    bottom: 0;
+    margin: 0px 0px 0px 0px;
+    grid-column: 1 / span 2;
+    grid-row:1;
+}
+.pvid h1 p{
+        grid-row: 2;
+        grid-column: 1
+}
+
+.pvid{       
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+}
+#buy{
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+}
+
+#buy:hover {
+    background: #ddd;
+    color: black;
+}
+.down img{
+    bottom: 0;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+
+.down{
+    background: cornflowerblue;
+    margin-top: 0;
+    opacity: 0.75;
+}
+
+.down:hover{
+    opacity:1;
+}
+
+.content h1{
+    color: white;
+    text-align: center;
+}
+
+.indexgrid{
+    display: grid;
+    height: 1150px;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 200px;
+    margin-top: 100px;
+}
+
+.indexgrid img{
+    width: 250px;
+}
+
+.indexgrid h2{
+    color: white;
+    text-align: center;
+}
+
+.description{
+    color: white;
+}
+
+.back{
+    color: white;
+    justify-content: center;
+    opacity: 0.75;
+}
+.back:hover{
+    opacity: 1;
+}
+
+.back img{
+    height: 50px;
+    padding-left: 15px;
+}
+
+.back h4{
+    margin-top: 0;
+    color:white;
+    margin-bottom: 0;
+    width: 100px;
+}
+
+.see{
+    opacity: 0.5;
+}
+
+.see:hover{
+    opacity: 1;
+}
+
+
+.mainidx{
+    background-image: linear-gradient(to bottom, midnightblue, black);
+}
+
+
+footer{
+    display: grid;
+    height: 55px;
+    grid-template-columns:  50px 50px 20px 20px 50px 100px 1fr 100px 50px 20px 50px 20px 50px;
+    grid-template-rows: 1fr;
+    background-image: linear-gradient(to bottom, midnightblue, black, midnightblue);
+}
+
+.copyright{
+    grid-column: 7;
+    color: white;
+    align-self: center;
+    justify-self: center;
+}
+
+.insta{
+    grid-column: 9;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.insta:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.disc{
+    grid-column: 11;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.disc:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.twit{
+    grid-column: 13;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.twit:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.find{
+    grid-column: 8;
+    color: white;
+    align-self: center;
+    justify-self: center;
+
+}
+
+footer img{
+    height: 40px;
+}
+
+
